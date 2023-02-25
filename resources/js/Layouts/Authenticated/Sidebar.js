@@ -1,6 +1,7 @@
 import {Link} from '@inertiajs/inertia-react'
 
 
+
 export default function Sidebar(){
     return <aside className="fixed z-50 w-[300px] h-full">
 
@@ -13,7 +14,7 @@ export default function Sidebar(){
         
             <div>
                 <div className="text-gray-1 text-sm mb-4">Menu</div>
-                <a href="/" className="side-link active">
+                <a href={route('prototype.dashboard')} className="side-link active">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
                         xmlns="http://www.w3.org/2000/svg">
                         <g id="Iconly/Bulk/Home">
